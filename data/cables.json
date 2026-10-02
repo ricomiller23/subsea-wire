@@ -1,0 +1,376 @@
+{
+  "metadata": {
+    "system_name": "SUBSEA-WIRE",
+    "cycle": 2026,
+    "last_updated": "2026-10-01",
+    "authoritative_sources": [
+      "TeleGeography Submarine Cable Map",
+      "International Cable Protection Committee (ICPC)",
+      "SubTel Forum Global Industry Report",
+      "Federal Communications Commission (FCC) International Bureau"
+    ]
+  },
+  "cables": [
+    {
+      "id": "cable-marea",
+      "name": "MAREA",
+      "rfs_year": 2018,
+      "length_km": 6605,
+      "design_capacity_tbps": 200,
+      "fiber_pairs": 8,
+      "owners": ["Telxius", "Meta", "Microsoft"],
+      "landing_points": [
+        { "city": "Virginia Beach", "country": "United States", "lat": 36.85, "lon": -75.97 },
+        { "city": "Bilbao", "country": "Spain", "lat": 43.26, "lon": -2.93 }
+      ],
+      "status": "operational",
+      "risk_level": "moderate",
+      "chokepoints": ["Atlantic Abyss", "Bay of Biscay"],
+      "source_url": "https://www.submarinecablemap.com/submarine-cable/marea",
+      "retrieved_at": "2026-10-01"
+    },
+    {
+      "id": "cable-dunant",
+      "name": "Dunant",
+      "rfs_year": 2021,
+      "length_km": 6400,
+      "design_capacity_tbps": 250,
+      "fiber_pairs": 12,
+      "owners": ["Google", "SubCom"],
+      "landing_points": [
+        { "city": "Virginia Beach", "country": "United States", "lat": 36.85, "lon": -75.97 },
+        { "city": "Saint-Hilaire-de-Riez", "country": "France", "lat": 46.72, "lon": -1.94 }
+      ],
+      "status": "operational",
+      "risk_level": "moderate",
+      "chokepoints": ["North Atlantic Corridor"],
+      "source_url": "https://www.submarinecablemap.com/submarine-cable/dunant",
+      "retrieved_at": "2026-10-01"
+    },
+    {
+      "id": "cable-grace-hopper",
+      "name": "Grace Hopper",
+      "rfs_year": 2022,
+      "length_km": 6250,
+      "design_capacity_tbps": 350,
+      "fiber_pairs": 16,
+      "owners": ["Google"],
+      "landing_points": [
+        { "city": "New York", "country": "United States", "lat": 40.71, "lon": -74.00 },
+        { "city": "Bude", "country": "United Kingdom", "lat": 50.82, "lon": -4.54 },
+        { "city": "Bilbao", "country": "Spain", "lat": 43.26, "lon": -2.93 }
+      ],
+      "status": "operational",
+      "risk_level": "low",
+      "chokepoints": ["Celtic Sea Gateway"],
+      "source_url": "https://www.submarinecablemap.com/submarine-cable/grace-hopper",
+      "retrieved_at": "2026-10-01"
+    },
+    {
+      "id": "cable-amitie",
+      "name": "Amitié",
+      "rfs_year": 2023,
+      "length_km": 6783,
+      "design_capacity_tbps": 400,
+      "fiber_pairs": 16,
+      "owners": ["Meta", "Microsoft", "Orange", "Vodafone", "Axians"],
+      "landing_points": [
+        { "city": "Lynn", "country": "United States", "lat": 42.46, "lon": -70.94 },
+        { "city": "Bude", "country": "United Kingdom", "lat": 50.82, "lon": -4.54 },
+        { "city": "Le Porge (Bordeaux)", "country": "France", "lat": 44.87, "lon": -1.09 }
+      ],
+      "status": "operational",
+      "risk_level": "low",
+      "chokepoints": ["English Channel Approach"],
+      "source_url": "https://www.submarinecablemap.com/submarine-cable/amitie",
+      "retrieved_at": "2026-10-01"
+    },
+    {
+      "id": "cable-seamewe-5",
+      "name": "SEA-ME-WE 5",
+      "rfs_year": 2017,
+      "length_km": 20000,
+      "design_capacity_tbps": 24,
+      "fiber_pairs": 3,
+      "owners": ["SEA-ME-WE 5 Consortium", "Singtel", "Orange", "Telecom Italia Sparkle"],
+      "landing_points": [
+        { "city": "Marseille", "country": "France", "lat": 43.29, "lon": 5.36 },
+        { "city": "Zafarana", "country": "Egypt", "lat": 29.11, "lon": 32.65 },
+        { "city": "Djibouti City", "country": "Djibouti", "lat": 11.58, "lon": 43.14 },
+        { "city": "Mumbai", "country": "India", "lat": 18.92, "lon": 72.83 },
+        { "city": "Singapore", "country": "Singapore", "lat": 1.35, "lon": 103.81 }
+      ],
+      "status": "impaired-rerouted",
+      "risk_level": "critical",
+      "chokepoints": ["Bab el-Mandeb", "Red Sea", "Strait of Malacca"],
+      "source_url": "https://www.submarinecablemap.com/submarine-cable/sea-me-we-5",
+      "retrieved_at": "2026-10-01"
+    },
+    {
+      "id": "cable-aae-1",
+      "name": "Asia-Africa-Europe 1 (AAE-1)",
+      "rfs_year": 2017,
+      "length_km": 25000,
+      "design_capacity_tbps": 40,
+      "fiber_pairs": 5,
+      "owners": ["AAE-1 Consortium", "China Unicom", "PCCW Global", "Telecom Egypt"],
+      "landing_points": [
+        { "city": "Marseille", "country": "France", "lat": 43.29, "lon": 5.36 },
+        { "city": "Abu Talat", "country": "Egypt", "lat": 31.09, "lon": 29.74 },
+        { "city": "Aden", "country": "Yemen", "lat": 12.79, "lon": 45.01 },
+        { "city": "Karachi", "country": "Pakistan", "lat": 24.86, "lon": 67.00 },
+        { "city": "Hong Kong", "country": "Hong Kong", "lat": 22.31, "lon": 114.16 }
+      ],
+      "status": "impaired-rerouted",
+      "risk_level": "critical",
+      "chokepoints": ["Bab el-Mandeb", "Red Sea", "Luzon Strait"],
+      "source_url": "https://www.submarinecablemap.com/submarine-cable/asia-africa-europe-1-aae-1",
+      "retrieved_at": "2026-10-01"
+    },
+    {
+      "id": "cable-2africa",
+      "name": "2Africa",
+      "rfs_year": 2024,
+      "length_km": 45000,
+      "design_capacity_tbps": 180,
+      "fiber_pairs": 16,
+      "owners": ["Meta", "Vodafone", "China Mobile", "MTN", "Orange", "Telecom Egypt"],
+      "landing_points": [
+        { "city": "Genoa", "country": "Italy", "lat": 44.40, "lon": 8.94 },
+        { "city": "Suez", "country": "Egypt", "lat": 29.96, "lon": 32.55 },
+        { "city": "Cape Town", "country": "South Africa", "lat": -33.92, "lon": 18.42 },
+        { "city": "Lagos", "country": "Nigeria", "lat": 6.52, "lon": 3.37 },
+        { "city": "Bude", "country": "United Kingdom", "lat": 50.82, "lon": -4.54 }
+      ],
+      "status": "operational",
+      "risk_level": "high",
+      "chokepoints": ["Bab el-Mandeb", "Cape of Good Hope", "Gibraltar"],
+      "source_url": "https://www.submarinecablemap.com/submarine-cable/2africa",
+      "retrieved_at": "2026-10-01"
+    },
+    {
+      "id": "cable-faster",
+      "name": "FASTER",
+      "rfs_year": 2016,
+      "length_km": 11629,
+      "design_capacity_tbps": 60,
+      "fiber_pairs": 6,
+      "owners": ["Google", "China Mobile", "China Telecom", "KDDI", "Singtel"],
+      "landing_points": [
+        { "city": "Bandon", "country": "United States", "lat": 43.11, "lon": -124.41 },
+        { "city": "Chikura", "country": "Japan", "lat": 34.96, "lon": 139.95 },
+        { "city": "Toucheng", "country": "Taiwan", "lat": 24.85, "lon": 121.82 }
+      ],
+      "status": "operational",
+      "risk_level": "elevated",
+      "chokepoints": ["Luzon Strait", "Izu Trench"],
+      "source_url": "https://www.submarinecablemap.com/submarine-cable/faster",
+      "retrieved_at": "2026-10-01"
+    },
+    {
+      "id": "cable-southern-cross-next",
+      "name": "Southern Cross NEXT",
+      "rfs_year": 2022,
+      "length_km": 15840,
+      "design_capacity_tbps": 72,
+      "fiber_pairs": 4,
+      "owners": ["Southern Cross Cables", "Spark NZ", "Singtel Optus", "Telstra"],
+      "landing_points": [
+        { "city": "Los Angeles", "country": "United States", "lat": 34.05, "lon": -118.24 },
+        { "city": "Suva", "country": "Fiji", "lat": -18.14, "lon": 178.44 },
+        { "city": "Sydney", "country": "Australia", "lat": -33.86, "lon": 151.20 },
+        { "city": "Auckland", "country": "New Zealand", "lat": -36.84, "lon": 174.76 }
+      ],
+      "status": "operational",
+      "risk_level": "low",
+      "chokepoints": ["South Pacific Basin"],
+      "source_url": "https://www.submarinecablemap.com/submarine-cable/southern-cross-next",
+      "retrieved_at": "2026-10-01"
+    },
+    {
+      "id": "cable-c-lion1",
+      "name": "C-Lion1",
+      "rfs_year": 2016,
+      "length_km": 1173,
+      "design_capacity_tbps": 144,
+      "fiber_pairs": 8,
+      "owners": ["Cinia"],
+      "landing_points": [
+        { "city": "Helsinki", "country": "Finland", "lat": 60.16, "lon": 24.93 },
+        { "city": "Rostock", "country": "Germany", "lat": 54.09, "lon": 12.13 }
+      ],
+      "status": "operational",
+      "risk_level": "high",
+      "chokepoints": ["Baltic Sea Corridor", "Gulf of Finland"],
+      "source_url": "https://www.submarinecablemap.com/submarine-cable/c-lion1",
+      "retrieved_at": "2026-10-01"
+    },
+    {
+      "id": "cable-taiwan-matsu-2",
+      "name": "Taiwan-Matsu No. 2",
+      "rfs_year": 2007,
+      "length_km": 180,
+      "design_capacity_tbps": 10,
+      "fiber_pairs": 4,
+      "owners": ["Chunghwa Telecom"],
+      "landing_points": [
+        { "city": "Taoyuan", "country": "Taiwan", "lat": 24.99, "lon": 121.30 },
+        { "city": "Nangan (Matsu)", "country": "Taiwan", "lat": 26.15, "lon": 119.93 }
+      ],
+      "status": "operational-surveilled",
+      "risk_level": "critical",
+      "chokepoints": ["Taiwan Strait"],
+      "source_url": "https://www.submarinecablemap.com/submarine-cable/taiwan-matsu-no-2",
+      "retrieved_at": "2026-10-01"
+    }
+  ],
+  "chokepoints": [
+    {
+      "id": "choke-red-sea",
+      "name": "Bab el-Mandeb & Red Sea Bottleneck",
+      "region": "Red Sea / Gulf of Aden",
+      "cables_transiting": 16,
+      "share_of_eurasia_traffic": "17%",
+      "threat_status": "Severe",
+      "risk_factors": ["Houthi Anti-Ship Interdiction", "Commercial Anchor Dragging", "Denied Repair Ship Clearances"],
+      "current_latency_penalty_ms": 48.5,
+      "source_url": "https://subtelforum.com/red-sea-cable-security-brief-2026/",
+      "retrieved_at": "2026-10-01"
+    },
+    {
+      "id": "choke-luzon",
+      "name": "Luzon Strait Chokepoint",
+      "region": "Taiwan / Philippines",
+      "cables_transiting": 11,
+      "share_of_eurasia_traffic": "28%",
+      "threat_status": "Elevated",
+      "risk_factors": ["High Subsea Seismic Faults", "PLAN Submarine Acoustic Traps", "Intense Fishing Trawling"],
+      "current_latency_penalty_ms": 12.0,
+      "source_url": "https://www.itu.int/itu-d/sites/submarine-cables-resilience/",
+      "retrieved_at": "2026-10-01"
+    },
+    {
+      "id": "choke-malacca",
+      "name": "Strait of Malacca Funnel",
+      "region": "Singapore / Malaysia / Indonesia",
+      "cables_transiting": 22,
+      "share_of_eurasia_traffic": "34%",
+      "threat_status": "Moderate",
+      "risk_factors": ["Extreme Shallow Water Vessel Congestion", "Anchor Dropping Violations"],
+      "current_latency_penalty_ms": 4.2,
+      "source_url": "https://www.itu.int/itu-d/sites/submarine-cables-resilience/",
+      "retrieved_at": "2026-10-01"
+    },
+    {
+      "id": "choke-baltic",
+      "name": "Baltic Sea Seabed Corridor",
+      "region": "Nordic / Northern Europe",
+      "cables_transiting": 8,
+      "share_of_eurasia_traffic": "8%",
+      "threat_status": "High",
+      "risk_factors": ["Russian Shadow Fleet Dark Vessels", "Suspected Anchor Sabotage", "Subsea Infrastructure Incursions"],
+      "current_latency_penalty_ms": 8.5,
+      "source_url": "https://subtelforum.com/baltic-telecom-security-review/",
+      "retrieved_at": "2026-10-01"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "inc-2024-redsea",
+      "date": "2024-03-04",
+      "cable_name": "Seacom & AAE-1 & TGN-Gulf",
+      "location": "Southern Red Sea (Bab el-Mandeb)",
+      "cause": "Anchor drag from severed bulk carrier Rubymar following missile strike",
+      "impact": "25% of data traffic between Asia and Europe rerouted around Cape of Good Hope",
+      "repair_duration_days": 82,
+      "source_url": "https://www.reuters.com/business/media-telecom/undersea-cables-cut-red-sea-disrupting-telecom-networks-2024-03-04/",
+      "retrieved_at": "2026-10-01"
+    },
+    {
+      "id": "inc-2023-matsu",
+      "date": "2023-02-16",
+      "cable_name": "Taiwan-Matsu No. 2 & No. 3",
+      "location": "Matsu Strait, Taiwan",
+      "cause": "Severed within 6 days by Chinese fishing trawler and Chinese freighter",
+      "impact": "Matsu Islands 14,000 residents completely disconnected from terrestrial internet for 50 days",
+      "repair_duration_days": 50,
+      "source_url": "https://www.apnews.com/article/taiwan-matsu-islands-internet-cables-cut-china-8ec8d8fb0299f0b830d1d23b708d7c2e",
+      "retrieved_at": "2026-10-01"
+    },
+    {
+      "id": "inc-2023-baltic",
+      "date": "2023-10-08",
+      "cable_name": "EE-FI Telecom Conduit",
+      "location": "Gulf of Finland, Baltic Sea",
+      "cause": "Anchor dragging by Hong Kong-flagged container ship NewNew Polar Bear",
+      "impact": "Full severing of secondary Estonia-Finland telecommunications link",
+      "repair_duration_days": 28,
+      "source_url": "https://www.reuters.com/world/europe/estonia-finland-telecoms-cable-repaired-after-october-damage-2023-11-28/",
+      "retrieved_at": "2026-10-01"
+    },
+    {
+      "id": "inc-2022-tonga",
+      "date": "2022-01-15",
+      "cable_name": "Tonga Submarine Cable",
+      "location": "South Pacific Ocean",
+      "cause": "Hunga Tonga-Hunga Ha'apai submarine caldera eruption & undersea landslide",
+      "impact": "Complete national telecommunications blackout for the Kingdom of Tonga",
+      "repair_duration_days": 38,
+      "source_url": "https://www.bbc.com/news/world-asia-60473307",
+      "retrieved_at": "2026-10-01"
+    }
+  ],
+  "repair_fleet": [
+    {
+      "vessel_name": "CS Durable",
+      "operator": "SubCom",
+      "flag": "Marshall Islands",
+      "current_station": "Curacao / Atlantic Hub",
+      "operational_status": "Ready for Dispatch",
+      "cable_capacity_tons": 5500,
+      "source_url": "https://www.subcom.com/fleet.html",
+      "retrieved_at": "2026-10-01"
+    },
+    {
+      "vessel_name": "Pierre de Fermat",
+      "operator": "Orange Marine",
+      "flag": "France",
+      "current_station": "Brest / European Atlantic",
+      "operational_status": "Active Maintenance",
+      "cable_capacity_tons": 3600,
+      "source_url": "https://marine.orange.com/en/fleet/cable-ships/pierre-de-fermat/",
+      "retrieved_at": "2026-10-01"
+    },
+    {
+      "vessel_name": "Cable Retriever",
+      "operator": "Global Marine Group",
+      "flag": "United Kingdom",
+      "current_station": "Subic Bay / Indo-Pacific Hub",
+      "operational_status": "Ready for Dispatch",
+      "cable_capacity_tons": 4200,
+      "source_url": "https://globalmarine.co.uk/vessels/cable-retriever/",
+      "retrieved_at": "2026-10-01"
+    },
+    {
+      "vessel_name": "Leon Thevenin",
+      "operator": "Orange Marine",
+      "flag": "Mauritius",
+      "current_station": "Cape Town / South Atlantic",
+      "operational_status": "Active Patrol",
+      "cable_capacity_tons": 3200,
+      "source_url": "https://marine.orange.com/en/fleet/cable-ships/leon-thevenin/",
+      "retrieved_at": "2026-10-01"
+    }
+  ],
+  "financial_impact_model": {
+    "daily_swift_volume_usd_trillion": 5.2,
+    "daily_fedwire_volume_usd_trillion": 4.1,
+    "daily_fx_settlement_volume_usd_trillion": 7.5,
+    "transatlantic_rtt_latency_ms": 64.2,
+    "transpacific_rtt_latency_ms": 118.5,
+    "red_sea_reroute_latency_penalty_ms": 48.5,
+    "global_subsea_cables_count": 552,
+    "total_global_length_km": 1400000,
+    "data_share_carried_by_subsea": "99%"
+  }
+}
